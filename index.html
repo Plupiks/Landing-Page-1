@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WoodHouse">
+  <meta property="og:image" content="img/hero-bg.jpg">
 
   <!-- Fonts Start -->
   <link
@@ -19,8 +22,11 @@
   <script src="https://kit.fontawesome.com/1774739131.js?_v=20220628171133" crossorigin="anonymous"></script>
   <!-- Fonts END -->
 
+  <!-- AOS -->
+  <link rel=" stylesheet" href="libs/aos.js/aos.css">
+
   <link rel="stylesheet" href="css/style.css?_v=20220628171133">
-  <title>Main</title>
+  <title>Wood House</title>
 
   <style>
     :root {
@@ -75,315 +81,327 @@
 <body>
   <div class="wrapper">
     <header class="header">
-  <div class="container">
-    <div class="header__body">
-      <a href="#s-hero" class="header__logo logo">
-        <!--START BLOCK HeaderLogo-->
-        <img src="img/logo-icon.svg" alt="{HeaderName-Seitename}" class="logo--icon">
-        <!--END BLOCK HeaderLogo-->
-
-        <!--START BLOCK HeaderName-->
-        <div class="logo__text">Wood House</div>
-        <!--END BLOCK HeaderName-->
-      </a>
-      <ul class="nav__links">
-        <li class="nav__link link">
-          <a href="#s-hero" class="link__items">Home</a>
-        </li>
-        <li class="nav__link link">
-          <a href="#s-benefits" class="link__items">Benefits</a>
-        </li>
-        <li class="nav__link link">
-          <a href="#s-about" class="link__items">About</a>
-        </li>
-      </ul>
-      <div class="white-space"></div>
-
-      <div class="burger-menu">
-        <div class="burger-menu__button">
-          <input class="checkbox" type="checkbox" id="checkbox"></input>
-          <label class="burger-menu__lines" for="checkbox">
-            <div class="burger-menu__line"></div>
-            <div class="burger-menu__line"></div>
-            <div class="burger-menu__line"></div>
-          </label>
-        </div>
-        <div class="burger-menu__content"></div>
-        <div class="backdrop"></div>
-      </div>
-    </div>
-  </div>
-</header>
-
-    <main>
-      <section class="hero" id="s-hero">
-  <div class="container">
-    <div class="hero__body">
-      <div class="hero__background-line"></div>
-      <div class="hero__text-content text-content">
-        <div class="text-content__body">
-          <div class="text-content__subtitle">ABOUT CONPANY</div>
-          <h1 class="text-content__title">What wood is used for house building?</h1>
-        </div>
-      </div>
-      <div class="hero__image-content">
-        <img src="img/hero-bg.jpg" alt="Hero Image">
-      </div>
-      <div class="hero__cards hero-cards">
-        <div class="hero-cards__wrapper">
-          <div class="hero-cards__body">
-            <i class="hero-cards__icon fa-solid fa-house-circle-check"></i>
-            <h2 class="hero-cards__title">Truss Systems</h2>
-            <div class="hero-cards__text">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            </div>
-          </div>
-        </div>
-        <div class="hero-cards__wrapper">
-          <div class="hero-cards__body">
-            <i class="hero-cards__icon fa-solid fa-microchip"></i>
-            <h2 class="hero-cards__title">Technology</h2>
-            <div class="hero-cards__text">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            </div>
-          </div>
-        </div>
-        <div class="hero-cards__wrapper">
-          <div class="hero-cards__body">
-            <i class="hero-cards__icon fa-solid fa-recycle"></i>
-            <h2 class="hero-cards__title">Materials</h2>
-            <div class="hero-cards__text">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            </div>
-          </div>
-        </div>
-        <div class="hero-cards__wrapper">
-          <div class="hero-cards__body">
-            <i class="hero-cards__icon fa-solid fa-industry"></i>
-            <h2 class="hero-cards__title">Manufacturing</h2>
-            <div class="hero-cards__text">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-      <section class="benefits" id="s-benefits">
-  <div class="container">
-    <div class="benefits__body">
-      <h2 class="benefits__title">Wood Truss Systems</h2>
-      <div class="benefits__descr">
-        The leading supplier of new and used truss equipment. Combining the qualities and expertise you should expect
-        from an industry supplier.
-      </div>
-      <div class="benefits__cards-block b-cards-block">
-
-        <!-- Text Block -->
-        <div class="b-cards-block__wrapper b-cards-block__wrapper-text">
-          <div class="b-cards-block__body">
-            <h3 class="b-cards-block__title">About Us</h3>
-            <div class="b-cards-block__text">
-              Mauris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus et
-              malesuada fames. Ut faucibus pulvinar elementum integer enim neque volutpat.
-            </div>
-          </div>
-        </div>
-        <!-- Text Block -->
-
-        <!-- Image Block -->
-        <div class="b-cards-block__wrapper b-cards-block__wrapper-image">
-          <div class="b-cards-block__body">
-            <img src="img/benefits-1.jpg" alt="">
-          </div>
-        </div>
-        <!-- Image Block -->
-
-        <!-- Text Block -->
-        <div class="b-cards-block__wrapper b-cards-block__wrapper-text">
-          <div class="b-cards-block__body">
-            <h3 class="b-cards-block__title">Our Strategy</h3>
-            <div class="b-cards-block__text">
-              Mauris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus et
-              malesuada fames. Ut faucibus pulvinar elementum integer enim neque volutpat.
-            </div>
-          </div>
-        </div>
-        <!-- Text Block -->
-
-        <!-- Image Block -->
-        <div class="b-cards-block__wrapper b-cards-block__wrapper-image">
-          <div class="b-cards-block__body">
-            <img src="img/benefits-2.jpg" alt="">
-          </div>
-        </div>
-        <!-- Image Block -->
-
-        <!-- Text Block -->
-        <div class="b-cards-block__wrapper b-cards-block__wrapper-text">
-          <div class="b-cards-block__body">
-            <h3 class="b-cards-block__title">Our Mission</h3>
-            <div class="b-cards-block__text">
-              Mauris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus et
-              malesuada fames. Ut faucibus pulvinar elementum integer enim neque volutpat.
-            </div>
-          </div>
-        </div>
-        <!-- Text Block -->
-
-        <!-- Image Block -->
-        <div class="b-cards-block__wrapper b-cards-block__wrapper-image">
-          <div class="b-cards-block__body">
-            <img src="img/benefits-3.jpg" alt="">
-          </div>
-        </div>
-        <!-- Image Block -->
-      </div>
-    </div>
-  </div>
-</section>
-      <section class="about" id="s-about">
-  <div class="container">
-    <div class="about__line"></div>
-    <div class="about__body">
-      <div class="about__image">
-        <img src="img/about-img.jpg" alt="About Image">
-      </div>
-      <h2 class="about__title">
-        An innovative design suite for wooden structures
-      </h2>
-      <div class="about__text">
-        Pharetra magna ac placerat vestibulum lectus mauris ultrices. Ut pharetra sit amet aliquam id diam maecenas
-        ultricies mi. Sollicitudin ac orci phasellus egestas tellus rutrum. Venenatis cras sed felis eget. Amet risus
-        nullam eget felis eget nunc. Lacus vestibulum sed arcu non odio euismod. Consectetur adipiscing elit duis
-        tristique.
-      </div>
-      <button class="about__button button">Learn More</button>
-    </div>
-  </div>
-</section>
-      <div class="info">
-  <div class="container">
-    <div class="info__body">
-      <div class="info__column">
-        <h3 class="info__title">Our Construction Projects</h3>
-      </div>
-      <div class="info__column">
-        <div class="info__text">
-          Dui ut ornare lectus sit. Tincidunt lobortis feugiat vivamus at augue eget arcu. Vulputate mi sit amet mauris
-          commodo quis imperdiet massa tincidunt. Sodales neque sodales ut etiam sit amet nisl. Blandit libero volutpat
-          sed cras ornare arcu dui vivamus arcu. Luctus venenatis lectus magna fringilla urna porttitor rhoncus. Vitae
-          suscipit tellus mauris a.
-        </div>
-      </div>
-      <div class="info__column">
-        <div class="info__text">
-          Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Sodales neque sodales ut etiam sit amet
-          nisl. Blandit libero volutpat sed cras ornare arcu dui vivamus arcu. Luctus venenatis lectus magna fringilla
-          urna porttitor rhoncus. Vitae suscipit tellus mauris a.
-        </div>
-        <button class="info__button button">Learn More</button>
-      </div>
-    </div>
-  </div>
-</div>
-    </main>
-
-    <footer class="footer">
-  <div class="container">
-    <div class="footer__body">
-      <div class="footer__row">
-        <div class="footer__column footer__column_1">
-          <a class="footer__logo footer-logo" href="#s-hero">
+      <div class="container">
+        <div class="header__body">
+          <a href="#s-hero" class="header__logo logo">
             <!--START BLOCK HeaderLogo-->
-            <img src="img/logo-icon-footer.svg" alt="Site Name" class="footer-logo__icon">
+            <img src="img/logo-icon.svg" alt="Site Logo" class="logo--icon">
             <!--END BLOCK HeaderLogo-->
 
             <!--START BLOCK HeaderName-->
-            <div class="footer-logo__text">WoodHouse</div>
+            <div class="logo__text">Wood House</div>
             <!--END BLOCK HeaderName-->
           </a>
-          <div class="footer__address">
-            A108 Adam Street
-            NY 535022, USA
-          </div>
-          <div class="footer__phone">
-            <span class="footer__phone-title">Phone:</span>
-            <span class="footer__phone-text footer-item__text">+1 5589 55488 55</span>
-          </div>
-          <div class="footer__mail">
-            <span class="footer__mail-title ">Email:</span>
-            <span class="footer__mail-text footer-item__text">info@example.com</span>
-          </div>
-          <div class="footer__social social">
-            <a href="#" class="social__item">
-              <i class="icon-twitter-icon"></i>
-            </a>
-            <a href="#" class="social__item">
-              <i class="icon-facebook-icon"></i>
-            </a>
-            <a href="#" class="social__item">
-              <i class="icon-instagram-icon"></i>
-            </a>
-            <a href="#" class="social__item">
-              <i class="icon-linkedin-icon"></i>
-            </a>
-          </div>
-        </div>
-        <div class="footer__column">
-          <ul class="footer__links">
-            <!--START BLOCK Hero-->
-            <a href="#s-hero" class="footer__link">
-              <i class="icon-arrow-right-icon"></i>
-              <span>Home</span>
-            </a>
-            <!-- END BLOCK Hero-->
-
-            <!--START BLOCK Benefits-->
-            <a href="#s-benefits" class="footer__link">
-              <i class="icon-arrow-right-icon"></i>
-              <span>Benefits</span>
-            </a>
-            <!-- END BLOCK Benefits-->
-
-            <!--START BLOCK About-->
-            <a href="#s-about" class="footer__link">
-              <i class="icon-arrow-right-icon"></i>
-              <span>About</span>
-            </a>
-            <!-- END BLOCK About-->
-
-            <!--START BLOCK Impressum-->
-            <a href="impressum.html" class="footer__link">
-              <i class="icon-arrow-right-icon"></i>
-              <span>Impressum und Datenschutzerklärung</span>
-            </a>
-            <!-- END BLOCK Impressum-->
+          <ul class="nav__links">
+            <li class="nav__link link">
+              <a href="#s-hero" class="link__items">Home</a>
+            </li>
+            <li class="nav__link link">
+              <a href="#s-benefits" class="link__items">Benefits</a>
+            </li>
+            <li class="nav__link link">
+              <a href="#s-about" class="link__items">About</a>
+            </li>
           </ul>
-        </div>
-        <div class="footer__column">
-          <h4 class="footer__title">Footer Info</h4>
-          <div class="footer__text">
-            Ihre Website ist so programmiert, dass sie keine Cookies sammelt, deswegen brauchen Sie auch
-            keine
-            weiteren
-            Zustimmungsfenstern für eine Zuslassung der Cookies. Das wird auch in ihrer - Ihre Website ist
-            so
-            programmiert, dass sie keine Cookies sammelt, deswegen brauchen Sie auch keine weiteren
-            Zustimmungsfenstern
-            für eine Zuslassung der Cookies. Das wird auch in ihrer
+          <div class="white-space"></div>
+
+          <div class="burger-menu">
+            <div class="burger-menu__button">
+              <input class="checkbox" type="checkbox" id="checkbox"></input>
+              <label class="burger-menu__lines" for="checkbox">
+                <div class="burger-menu__line"></div>
+                <div class="burger-menu__line"></div>
+                <div class="burger-menu__line"></div>
+              </label>
+            </div>
+            <div class="burger-menu__content"></div>
+            <div class="backdrop"></div>
           </div>
         </div>
       </div>
-      <div class="footer__row footer__row_2">
-        <div class="footer-bottom__text">
-          Deine Webseite - All Rights Reserved
+    </header>
+
+    <main>
+      <section class="hero" id="s-hero">
+        <div class="container">
+          <div class="hero__body">
+            <div class="hero__background-line"></div>
+            <div class="hero__text-content text-content" data-aos="fade-right">
+              <div class="text-content__body">
+                <div class="text-content__subtitle">ABOUT CONPANY</div>
+                <h1 class="text-content__title">What wood is used for house building?</h1>
+              </div>
+            </div>
+            <div class="hero__image-content" data-aos="fade-up">
+              <img src="img/hero-bg.jpg" alt="Hero Image">
+            </div>
+            <div class="hero__cards hero-cards" data-aos="fade-up">
+              <div class="hero-cards__wrapper">
+                <div class="hero-cards__body">
+                  <i class="hero-cards__icon fa-solid fa-house-circle-check"></i>
+                  <h2 class="hero-cards__title">Truss Systems</h2>
+                  <div class="hero-cards__text">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                  </div>
+                </div>
+              </div>
+              <div class="hero-cards__wrapper">
+                <div class="hero-cards__body">
+                  <i class="hero-cards__icon fa-solid fa-microchip"></i>
+                  <h2 class="hero-cards__title">Technology</h2>
+                  <div class="hero-cards__text">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                  </div>
+                </div>
+              </div>
+              <div class="hero-cards__wrapper">
+                <div class="hero-cards__body">
+                  <i class="hero-cards__icon fa-solid fa-recycle"></i>
+                  <h2 class="hero-cards__title">Materials</h2>
+                  <div class="hero-cards__text">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                  </div>
+                </div>
+              </div>
+              <div class="hero-cards__wrapper">
+                <div class="hero-cards__body">
+                  <i class="hero-cards__icon fa-solid fa-industry"></i>
+                  <h2 class="hero-cards__title">Manufacturing</h2>
+                  <div class="hero-cards__text">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="benefits" id="s-benefits">
+        <div class="container">
+          <div class="benefits__body">
+            <h2 class="benefits__title" data-aos="fade-up">Wood Truss Systems</h2>
+            <div class="benefits__descr" data-aos="fade-up">
+              The leading supplier of new and used truss equipment. Combining the qualities and expertise you should
+              expect
+              from an industry supplier.
+            </div>
+            <div class="benefits__cards-block b-cards-block">
+
+              <!-- Text Block -->
+              <div class="b-cards-block__wrapper b-cards-block__wrapper-text" data-aos="zoom-in">
+                <div class="b-cards-block__body">
+                  <h3 class="b-cards-block__title">About Us</h3>
+                  <div class="b-cards-block__text">
+                    Mauris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus
+                    et
+                    malesuada fames. Ut faucibus pulvinar elementum integer enim neque volutpat.
+                  </div>
+                </div>
+              </div>
+              <!-- Text Block -->
+
+              <!-- Image Block -->
+              <div class="b-cards-block__wrapper b-cards-block__wrapper-image" data-aos="zoom-in">
+                <div class="b-cards-block__body">
+                  <img src="img/benefits-1.jpg" alt="">
+                </div>
+              </div>
+              <!-- Image Block -->
+
+              <!-- Text Block -->
+              <div class="b-cards-block__wrapper b-cards-block__wrapper-text" data-aos="zoom-in">
+                <div class="b-cards-block__body">
+                  <h3 class="b-cards-block__title">Our Strategy</h3>
+                  <div class="b-cards-block__text">
+                    Mauris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus
+                    et
+                    malesuada fames. Ut faucibus pulvinar elementum integer enim neque volutpat.
+                  </div>
+                </div>
+              </div>
+              <!-- Text Block -->
+
+              <!-- Image Block -->
+              <div class="b-cards-block__wrapper b-cards-block__wrapper-image" data-aos="zoom-in">
+                <div class="b-cards-block__body">
+                  <img src="img/benefits-2.jpg" alt="">
+                </div>
+              </div>
+              <!-- Image Block -->
+
+              <!-- Text Block -->
+              <div class="b-cards-block__wrapper b-cards-block__wrapper-text" data-aos="zoom-in">
+                <div class="b-cards-block__body">
+                  <h3 class="b-cards-block__title">Our Mission</h3>
+                  <div class="b-cards-block__text">
+                    Mauris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus
+                    et
+                    malesuada fames. Ut faucibus pulvinar elementum integer enim neque volutpat.
+                  </div>
+                </div>
+              </div>
+              <!-- Text Block -->
+
+              <!-- Image Block -->
+              <div class="b-cards-block__wrapper b-cards-block__wrapper-image" data-aos="zoom-in">
+                <div class="b-cards-block__body">
+                  <img src="img/benefits-3.jpg" alt="">
+                </div>
+              </div>
+              <!-- Image Block -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="s-about">
+        <div class="container">
+          <div class="about__line"></div>
+          <div class="about__body">
+            <div class="about__image" data-aos="fade-up">
+              <img src="img/about-img.jpg" alt="About Image">
+            </div>
+            <h2 class="about__title" data-aos="fade-up">
+              An innovative design suite for wooden structures
+            </h2>
+            <div class="about__text" data-aos="fade-up">
+              Pharetra magna ac placerat vestibulum lectus mauris ultrices. Ut pharetra sit amet aliquam id diam
+              maecenas
+              ultricies mi. Sollicitudin ac orci phasellus egestas tellus rutrum. Venenatis cras sed felis eget. Amet
+              risus
+              nullam eget felis eget nunc. Lacus vestibulum sed arcu non odio euismod. Consectetur adipiscing elit duis
+              tristique.
+            </div>
+            <button class="about__button button" data-aos="fade-left">Learn More</button>
+          </div>
+        </div>
+      </section>
+      <div class="info">
+        <div class="container">
+          <div class="info__body">
+            <div class="info__column">
+              <h3 class="info__title" data-aos="fade-right">Our Construction Projects</h3>
+            </div>
+            <div class="info__column" data-aos="fade-up">
+              <div class="info__text">
+                Dui ut ornare lectus sit. Tincidunt lobortis feugiat vivamus at augue eget arcu. Vulputate mi sit amet
+                mauris
+                commodo quis imperdiet massa tincidunt. Sodales neque sodales ut etiam sit amet nisl. Blandit libero
+                volutpat
+                sed cras ornare arcu dui vivamus arcu. Luctus venenatis lectus magna fringilla urna porttitor rhoncus.
+                Vitae
+                suscipit tellus mauris a.
+              </div>
+            </div>
+            <div class="info__column" data-aos="fade-up" data-aos-delay="500">
+              <div class="info__text">
+                Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Sodales neque sodales ut etiam sit
+                amet
+                nisl. Blandit libero volutpat sed cras ornare arcu dui vivamus arcu. Luctus venenatis lectus magna
+                fringilla
+                urna porttitor rhoncus. Vitae suscipit tellus mauris a.
+              </div>
+              <button class="info__button button">Learn
+                More</button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</footer>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__body">
+          <div class="footer__row">
+            <div class="footer__column footer__column_1">
+              <a class="footer__logo footer-logo" href="#s-hero">
+                <!--START BLOCK HeaderLogo-->
+                <img src="img/logo-icon-footer.svg" alt="Site Name" class="footer-logo__icon">
+                <!--END BLOCK HeaderLogo-->
+
+                <!--START BLOCK HeaderName-->
+                <div class="footer-logo__text">WoodHouse</div>
+                <!--END BLOCK HeaderName-->
+              </a>
+              <div class="footer__address">
+                A108 Adam Street
+                NY 535022, USA
+              </div>
+              <div class="footer__phone">
+                <span class="footer__phone-title">Phone:</span>
+                <span class="footer__phone-text footer-item__text">+1 5589 55488 55</span>
+              </div>
+              <div class="footer__mail">
+                <span class="footer__mail-title ">Email:</span>
+                <span class="footer__mail-text footer-item__text">info@example.com</span>
+              </div>
+              <div class="footer__social social">
+                <a href="#" class="social__item">
+                  <i class="icon-twitter-icon"></i>
+                </a>
+                <a href="#" class="social__item">
+                  <i class="icon-facebook-icon"></i>
+                </a>
+                <a href="#" class="social__item">
+                  <i class="icon-instagram-icon"></i>
+                </a>
+                <a href="#" class="social__item">
+                  <i class="icon-linkedin-icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="footer__column">
+              <ul class="footer__links">
+                <!--START BLOCK Hero-->
+                <a href="#s-hero" class="footer__link">
+                  <i class="icon-arrow-right-icon"></i>
+                  <span>Home</span>
+                </a>
+                <!-- END BLOCK Hero-->
+
+                <!--START BLOCK Benefits-->
+                <a href="#s-benefits" class="footer__link">
+                  <i class="icon-arrow-right-icon"></i>
+                  <span>Benefits</span>
+                </a>
+                <!-- END BLOCK Benefits-->
+
+                <!--START BLOCK About-->
+                <a href="#s-about" class="footer__link">
+                  <i class="icon-arrow-right-icon"></i>
+                  <span>About</span>
+                </a>
+                <!-- END BLOCK About-->
+
+                <!--START BLOCK Impressum-->
+                <a href="impressum.html" class="footer__link">
+                  <i class="icon-arrow-right-icon"></i>
+                  <span>Impressum und Datenschutzerklärung</span>
+                </a>
+                <!-- END BLOCK Impressum-->
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h4 class="footer__title">Footer Info</h4>
+              <div class="footer__text">
+                Ihre Website ist so programmiert, dass sie keine Cookies sammelt, deswegen brauchen Sie auch
+                keine
+                weiteren
+                Zustimmungsfenstern für eine Zuslassung der Cookies. Das wird auch in ihrer - Ihre Website ist
+                so
+                programmiert, dass sie keine Cookies sammelt, deswegen brauchen Sie auch keine weiteren
+                Zustimmungsfenstern
+                für eine Zuslassung der Cookies. Das wird auch in ihrer
+              </div>
+            </div>
+          </div>
+          <div class="footer__row footer__row_2">
+            <div class="footer-bottom__text">
+              Deine Webseite - All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 
   <!-- jQuery -->
@@ -391,7 +409,11 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
   <!-- Polyfill  for "scrollIntoView" -->
-  <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js?_v=20220628171133"></script>
+  <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js?_v=20220628171133">
+  </script>
+
+  <!-- AOS -->
+  <script src="libs/aos.js/aos.js"></script>
 
   <!-- App.js -->
   <script src="js/app.js?_v=20220628171133"></script>

@@ -219,11 +219,11 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   activeClassMenu();
 
-  //  AOS.init({
-  //    // Global settings:
-  //    once: true,
-  //    duration: 1000,
-  //    delay: 100,
-  //    anchorPlacement: 'top',
-  //  });
+  AOS.init({
+    // Global settings:
+    once: true,
+    duration: 1000,
+    delay: 100,
+    anchorPlacement: 'top',
+  });
 });
