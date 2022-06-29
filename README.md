@@ -1,7 +1,7 @@
 # Landing Page (WoodHouse)
 ![](https://github.com/Plupiks/Landing-Page-Company-2/blob/main/img/main-image.jpg)
 
-##About:
+## About:
 Simple landing of a construction company
 
 <br>
@@ -15,7 +15,7 @@ The following elements are present in this landing:
 <br>
 
 ## Libraries used
-- `Fancybox.js` - image gallery
+- `Aos` - animation on scroll
 
 <br>
 
