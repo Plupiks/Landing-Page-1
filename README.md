@@ -1,8 +1,7 @@
 # Landing Page (WoodHouse)
 ![](https://github.com/Plupiks/Landing-Page-Company-2/blob/main/img/main-image.jpg)
 
-About:
-<br>
+##About:
 Simple landing of a construction company
 
 <br>
