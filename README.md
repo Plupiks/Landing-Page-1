@@ -2,6 +2,7 @@
 ![](https://github.com/Plupiks/Landing-Page-Company-2/blob/main/img/main-image.jpg)
 
 About:
+<br>
 Simple landing of a construction company
 
 <br>
