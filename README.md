@@ -10,7 +10,7 @@ The following elements are present in this landing:
 - The standard burger menu, on mobile devices, slides to the right. When scrolling, all forces are assigned an active class that corresponds to the active section that the user is viewing.
 - In the Benefits section, I expand the blocks with the help of js, and also make the height of all cards the same regardless of the content.
 
-[Link to the working page](https://plupiks.github.io/Landing-Page-Company-2/)
+[Link to the working page](https://plupiks.github.io/Landing-Page-1/)
 
 <br>
 
